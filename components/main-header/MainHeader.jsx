@@ -1,9 +1,12 @@
+
 import Link from 'next/link'
 import React from 'react'
 import logoImg from '@/assets/logo.png'
 import styles from './main-header.module.css'
 import Image from 'next/image'
 import MainHeaderBackground from './MainHeaderBackground'
+import NavLink from './NavLink'
+
 
 const MainHeader = () => {
   return (
@@ -18,10 +21,10 @@ const MainHeader = () => {
       <nav className={styles.nav}>
         <ul>
             <li>
-                <Link href="/meals">Browse Meals</Link>
+              <NavLink href='/meals'>Browse Meals</NavLink>
             </li>
             <li>
-            <Link href="/community">Join Community</Link>
+            <NavLink href="/community">Join Community</NavLink>
             </li>
         </ul>
       </nav>

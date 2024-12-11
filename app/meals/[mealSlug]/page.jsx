@@ -1,10 +1,10 @@
 import React from 'react'
 
-const MealDetailPage = ({params}) => {
-    const { mealSlug } = params
+const MealDetailPage = () => {
+    
   return (
     <div>
-      Meal id is {mealSlug}
+      meal detaile
     </div>
   )
 }
